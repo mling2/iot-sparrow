@@ -7,15 +7,14 @@
                              "No update"]
         },
         "access_control": {
-            "acceptable": ["MFA"],
+            "acceptable": ["Multi-Factor Authentication"],
             "unacceptable": ["Password - Factory Default - Not User Changeable", 
                              "Password - User Generated", 
                              "Biometric", 
                              "Password - Factory Default - User Changeable", 
                              "No control", 
                              "Multiple user accounts are allowed", 
-                             "Single account",
-                             "No account"]
+                             "Single account"]
         },
         "security_oversight": {
             "acceptable": ["Audits performed by internal and third-party security auditors"], 
