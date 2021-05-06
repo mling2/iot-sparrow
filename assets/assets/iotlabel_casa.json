@@ -1,0 +1,258 @@
+{
+    "additional_information": {
+        "other_collected_data": "",
+        "data_linkage": "",
+        "could_be_inferred_from_users_data": "",
+        "special_data_handling_practices_for_children": "",
+        "security_updates": "",
+        "access_control": "",
+        "security_oversight": "",
+        "functionality_with_no_internet": "",
+        "phone": "",
+        "email": "",
+        "functionality_with_no_data_processing": "",
+        "physical_actuations_and_triggers": "",
+        "compatible_platforms": ""
+    },
+    "other": {
+        "other_collected_data": "",
+        "could_be_inferred_from_users_data": "",
+        "special_data_handling_practices_for_children": "",
+        "data_linkage": "",
+        "security_updates": "",
+        "access_control": ""
+    },
+    "iot_security_privacy": {
+        "device_details": {
+            "device_name": "Smart Security Camera N200",
+            "model_number": "",
+            "firmware_version": "",
+            "updated_on": "",
+            "manufactured_in": "",
+            "manufacturer_name": "Casa"
+        },
+        "security_mechanisms": {
+            "security_updates": {
+                "automatic": {
+                    "available": true,
+                    "expiration_date": "2022-01-01T00:00:00.000Z"
+                },
+                "manual": {
+                    "available": false,
+                    "expiration_date": ""
+                },
+                "consent_based": {
+                    "available": false,
+                    "expiration_date": ""
+                },
+                "other": {
+                    "available": false,
+                    "expiration_date": ""
+                },
+                "no_update": {
+                    "available": false
+                }
+            },
+            "access_control": {
+                "password": {
+                    "available": false,
+                    "factory_default": {
+                        "available": false,
+                        "user_changeable": {
+                            "available": false
+                        },
+                        "not_user_changeable": {
+                            "available": false
+                        }
+                    },
+                    "user_generated": {
+                        "available": false
+                    }
+                },
+                "biometric": {
+                    "available": false
+                },
+                "MFA": {
+                    "available": true
+                },
+                "no_control": {
+                    "available": false
+                },
+                "multi_account": {
+                    "available": false
+                },
+                "single_account": {
+                    "available": false
+                },
+                "other": {
+                    "available": false
+                },
+                "optional_account": {
+                    "available": false
+                },
+                "no_account": {
+                    "available": false
+                }
+            },
+            "security_oversight": {
+                "audit": "Audits performed by internal security auditors"
+            },
+            "ports_and_protocols": {
+                "link": ""
+            },
+            "hardware_safety": {
+                "link": ""
+            },
+            "software_safety": {
+                "link": ""
+            },
+            "personal_safety": {
+                "link": ""
+            },
+            "vulnerability_disclosure_and_management": {
+                "link": ""
+            },
+            "software_and_hardware_composition_list": {
+                "link": ""
+            },
+            "encryption_and_key_management": {
+                "link": ""
+            }
+        },
+        "data_practices": {
+            "sensors": [
+                {
+                    "sensor_data_collection": "Visual",
+                    "sensor_type": "Camera",
+                    "collection_frequency": "When user requests it",
+                    "purpose": "Providing and improving device functions",
+                    "data_stored_on_device": "No device storage",
+                    "local_data_retention_time": "No retention",
+                    "data_stored_on_cloud": "Identifiable",
+                    "cloud_data_retention_time": "Up to a year",
+                    "shared_with": "Manufacturer",
+                    "sharing_frequency": "Periodic",
+                    "sold_to": "Not sold",
+                    "additional_information": {
+                        "sensor_data_collection": "",
+                        "sensor_type": "",
+                        "collection_frequency": "",
+                        "purpose": "",
+                        "data_stored_on_device": "",
+                        "local_data_retention_time": "",
+                        "data_stored_on_cloud": "",
+                        "cloud_data_retention_time": "",
+                        "shared_with": "",
+                        "sharing_frequency": "",
+                        "sold_to": ""
+                    },
+                    "others": {
+                        "sensor_data_collection": "",
+                        "sensor_type": "",
+                        "collection_frequency": "",
+                        "purpose": "",
+                        "data_stored_on_device": "",
+                        "local_data_retention_time": "",
+                        "data_stored_on_cloud": "",
+                        "cloud_data_retention_time": "",
+                        "shared_with": "",
+                        "sharing_frequency": ""
+                    }
+                },
+                {
+                    "sensor_data_collection": "Audio",
+                    "sensor_type": "Microphone",
+                    "collection_frequency": "When user requests it",
+                    "purpose": "Providing and improving device functions",
+                    "data_stored_on_device": "No device storage",
+                    "local_data_retention_time": "No retention",
+                    "data_stored_on_cloud": "Identifiable",
+                    "cloud_data_retention_time": "Up to a year",
+                    "shared_with": "Manufacturer",
+                    "sharing_frequency": "Periodic",
+                    "sold_to": "Not sold",
+                    "additional_information": {
+                        "sensor_data_collection": "",
+                        "sensor_type": "",
+                        "collection_frequency": "",
+                        "purpose": "",
+                        "data_stored_on_device": "",
+                        "local_data_retention_time": "",
+                        "data_stored_on_cloud": "",
+                        "cloud_data_retention_time": "",
+                        "shared_with": "",
+                        "sharing_frequency": "",
+                        "sold_to": ""
+                    },
+                    "others": {
+                        "sensor_data_collection": "",
+                        "sensor_type": "",
+                        "collection_frequency": "",
+                        "purpose": "",
+                        "data_stored_on_device": "",
+                        "local_data_retention_time": "",
+                        "data_stored_on_cloud": "",
+                        "cloud_data_retention_time": "",
+                        "shared_with": "",
+                        "sharing_frequency": ""
+                    }
+                },
+                {
+                    "sensor_data_collection": "Motion",
+                    "sensor_type": "Motion sensor",
+                    "collection_frequency": "When user requests it",
+                    "purpose": "Providing and improving device functions",
+                    "data_stored_on_device": "No device storage",
+                    "local_data_retention_time": "No retention",
+                    "data_stored_on_cloud": "Identifiable",
+                    "cloud_data_retention_time": "Up to a year",
+                    "shared_with": "Third parties",
+                    "sharing_frequency": "Continuous",
+                    "sold_to": "Not sold",
+                    "additional_information": {
+                        "sensor_data_collection": "",
+                        "sensor_type": "",
+                        "collection_frequency": "",
+                        "purpose": "",
+                        "data_stored_on_device": "",
+                        "local_data_retention_time": "",
+                        "data_stored_on_cloud": "",
+                        "cloud_data_retention_time": "",
+                        "shared_with": "",
+                        "sharing_frequency": "",
+                        "sold_to": ""
+                    },
+                    "others": {
+                        "sensor_data_collection": "",
+                        "sensor_type": "",
+                        "collection_frequency": "",
+                        "purpose": "",
+                        "data_stored_on_device": "",
+                        "local_data_retention_time": "",
+                        "data_stored_on_cloud": "",
+                        "cloud_data_retention_time": "",
+                        "shared_with": "",
+                        "sharing_frequency": ""
+                    }
+                }
+            ],
+            "other_collected_data": "",
+            "data_linkage": "Data may be linked with internal and external data sources",
+            "could_be_inferred_from_users_data": "No data inference",
+            "special_data_handling_practices_for_children": "",
+            "compliance": "",
+            "privacy_policy": {
+                "link": ""
+            }
+        },
+        "more_information": {
+            "detailed_label": "",
+            "phone": "",
+            "email": "",
+            "functionality_with_no_internet": "Not disclosed",
+            "functionality_with_no_data_processing": "Not disclosed",
+            "physical_actuations_and_triggers": "",
+            "compatible_platforms": ""
+        }
+    }
+}

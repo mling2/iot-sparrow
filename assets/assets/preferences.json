@@ -1,0 +1,424 @@
+{
+    "security_mechanisms": {
+        "security_updates": {
+            "acceptable": ["Automatic"],
+            "unacceptable": ["Manual", 
+                             "Consent-based", 
+                             "No update"]
+        },
+        "access_control": {
+            "acceptable": ["MFA"],
+            "unacceptable": ["Password - Factory Default - Not User Changeable", 
+                             "Password - User Generated", 
+                             "Biometric", 
+                             "Password - Factory Default - User Changeable", 
+                             "No control", 
+                             "Multiple user accounts are allowed", 
+                             "Single account",
+                             "No account"]
+        },
+        "security_oversight": {
+            "acceptable": ["Audits performed by internal and third-party security auditors"], 
+            "unacceptable" : ["Audits performed by internal security auditors", 
+                              "Audits performed by third-party security auditors", 
+                              "No security audits"]
+        }
+    },
+    "data_practices": {
+        "sensors": [
+            {
+                "sensor_data_collection": "Visual",
+                "sensor_type": "Camera",
+                "collection_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law", 
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "purpose": {
+                    "acceptable": ["Providing and improving device functions"],
+                    "unacceptable": ["Personalization", 
+                                    "Tailored advertising and monetization", 
+                                    "Contacting and updating users", 
+                                    "Security and safety", 
+                                    "Research", 
+                                    "Unspecified third-party use"]
+                },
+                "data_stored_on_device": {
+                    "acceptable": ["No device storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "local_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "data_stored_on_cloud": {
+                    "acceptable": ["No cloud storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "cloud_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "shared_with": {
+                    "acceptable": ["Not shared"],
+                    "unacceptable": ["Public",
+                                    "Emergency services", 
+                                    "Service providers",
+                                    "Government and legal authorities",
+                                    "Third parties", 
+                                    "Manufacturer"]
+                },
+                "sharing_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "sold_to": {
+                    "acceptable": ["Not sold"], 
+                    "unacceptable": ["Third parties"]
+                }
+            },
+            {
+                "sensor_data_collection": "Audio",
+                "sensor_type": "Microphone",
+                "collection_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "purpose": {
+                    "acceptable": ["Providing and improving device functions"],
+                    "unacceptable": ["Personalization", 
+                                    "Tailored advertising and monetization", 
+                                    "Contacting and updating users", 
+                                    "Security and safety", 
+                                    "Research", 
+                                    "Unspecified third-party use"]
+                },
+                "data_stored_on_device": {
+                    "acceptable": ["No device storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "local_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "data_stored_on_cloud": {
+                    "acceptable": ["No cloud storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "cloud_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "shared_with": {
+                    "acceptable": ["Not shared"],
+                    "unacceptable": ["Public",
+                                    "Emergency services", 
+                                    "Service providers",
+                                    "Government and legal authorities",
+                                    "Third parties", 
+                                    "Manufacturer"]
+                },
+                "sharing_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "sold_to": {
+                    "acceptable": ["Not sold"], 
+                    "unacceptable": ["Third parties"]
+                }
+            },
+            {
+                "sensor_data_collection": "Motion",
+                "sensor_type": "Motion sensor",
+                "collection_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "purpose": {
+                    "acceptable": ["Providing and improving device functions"],
+                    "unacceptable": ["Personalization", 
+                                    "Tailored advertising and monetization", 
+                                    "Contacting and updating users", 
+                                    "Security and safety", 
+                                    "Research", 
+                                    "Unspecified third-party use"]
+                },
+                "data_stored_on_device": {
+                    "acceptable": ["No device storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "local_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "data_stored_on_cloud": {
+                    "acceptable": ["No cloud storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "cloud_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "shared_with": {
+                    "acceptable": ["Not shared"],
+                    "unacceptable": ["Public",
+                                    "Emergency services", 
+                                    "Service providers",
+                                    "Government and legal authorities",
+                                    "Third parties", 
+                                    "Manufacturer"]
+                },
+                "sharing_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "sold_to": {
+                    "acceptable": ["Not sold"], 
+                    "unacceptable": ["Third parties"]
+                }
+            },
+            {
+                "sensor_data_collection": "Temperature",
+                "sensor_type": "Temperature sensor",
+                "collection_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "purpose": {
+                    "acceptable": ["Providing and improving device functions"],
+                    "unacceptable": ["Personalization", 
+                                    "Tailored advertising and monetization", 
+                                    "Contacting and updating users", 
+                                    "Security and safety", 
+                                    "Research", 
+                                    "Unspecified third-party use"]
+                },
+                "data_stored_on_device": {
+                    "acceptable": ["No device storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "local_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "data_stored_on_cloud": {
+                    "acceptable": ["No cloud storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "cloud_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "shared_with": {
+                    "acceptable": ["Not shared"],
+                    "unacceptable": ["Public",
+                                    "Emergency services", 
+                                    "Service providers",
+                                    "Government and legal authorities",
+                                    "Third parties", 
+                                    "Manufacturer"]
+                },
+                "sharing_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "sold_to": {
+                    "acceptable": ["Not sold"], 
+                    "unacceptable": ["Third parties"]
+                }
+            }, 
+            {
+                "sensor_data_collection": "Light",
+                "sensor_type": "Ambient light sensor",
+                "collection_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "purpose": {
+                    "acceptable": ["Providing and improving device functions"],
+                    "unacceptable": ["Personalization", 
+                                    "Tailored advertising and monetization", 
+                                    "Contacting and updating users", 
+                                    "Security and safety", 
+                                    "Research", 
+                                    "Unspecified third-party use"]
+                },
+                "data_stored_on_device": {
+                    "acceptable": ["No device storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "local_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "data_stored_on_cloud": {
+                    "acceptable": ["No cloud storage"],
+                    "unacceptable": ["Pseudonymized", 
+                                    "De-identified", 
+                                    "Identifiable"]
+                },
+                "cloud_data_retention_time": {
+                    "acceptable": ["No retention"],
+                    "unacceptable": ["Forever",
+                                    "Up to 10 years", 
+                                    "Up to a year",
+                                    "Up to a month",
+                                    "Up to a week", 
+                                    "Up to a day",
+                                    "Less than 5 minutes"]
+                },
+                "shared_with": {
+                    "acceptable": ["Not shared"],
+                    "unacceptable": ["Public",
+                                    "Emergency services", 
+                                    "Service providers",
+                                    "Government and legal authorities",
+                                    "Third parties", 
+                                    "Manufacturer"]
+                },
+                "sharing_frequency": {
+                    "acceptable": ["Not shared"], 
+                    "unacceptable": ["When required by law",
+                                    "When an event happens", 
+                                    "When third parties request it", 
+                                    "When user requests it",
+                                    "Periodic",
+                                    "Continuous"]
+                },
+                "sold_to": {
+                    "acceptable": ["Not sold"], 
+                    "unacceptable": ["Third parties"]
+                }
+            }
+        ],
+        "data_linkage": {
+            "acceptable": ["Data will not be linked with other data sources"], 
+            "unacceptable": ["Data may be linked with internal data sources", 
+                            "Data may be linked with external data sources", 
+                            "Data may be linked with internal and external data sources"]
+        },
+        "could_be_inferred_from_users_data": {
+            "acceptable": ["No data inference"], 
+            "unacceptable": ["Attitudes and preferences", 
+                             "Characteristics and psychological traits", 
+                             "Aptitudes and abilities",
+                             "Behaviors"]
+        }
+    }
+}
